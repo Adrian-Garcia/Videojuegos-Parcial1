@@ -33,7 +33,7 @@ public class Game implements Runnable {
     public int score = 0;               // score of the game
     public boolean b = false;           // to accelerate the bads
     public boolean live = true;         // to increase or decrease lives
-    public boolean win = true;          // to end game
+    private boolean win = true;          // to end game
 
     /**
      * to create title, width and height and set the game is still not running
