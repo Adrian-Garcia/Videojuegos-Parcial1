@@ -149,7 +149,6 @@ public class Bad extends Item{
                 floor = true;
             }
         }
-        
     }
     
     /**
